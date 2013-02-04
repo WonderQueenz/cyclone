@@ -17,3 +17,18 @@
 
 __author__ = "Alexandre Fiori"
 __version__ = version = "git-2013011801"
+
+git://github.com/fiorix/cyclone.git
+
+#include <stdio.h>
+ #include <core.h>
+ using Core;
+ int main(int argc, string_t ? args)
+ {
+    if (argc <= 1) {
+       printf("Usage: hello-cyclone <name>\n");
+       return 1;
+    }
+    printf("Hello from Cyclone, %s\n", args[1]);
+    return 0;
+
